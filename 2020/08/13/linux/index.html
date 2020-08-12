@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>标准模板 | Hexo</title>
+  <title>linux的文件编辑常用命令 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="主要是记录,vim模式下的全选，复制，粘贴，删除操作 单个命令的解释12345678# vim 进入文件的编辑模式$ vim test.md# esc下，‘gg&#39;:按两次g光标会跳转到文件首位置# &#39;v&#39;:按下v之后，移动光标，此时经过的位置都会被选中# &#39;G&#39;:注意这是大写的G，这样会把光标调到文件尾的位置# &#39;d&#39;:删除选中的数据# &amp;#">
 <meta property="og:type" content="article">
-<meta property="og:title" content="标准模板">
-<meta property="og:url" content="http://yoursite.com/2020/08/13/hexo/index.html">
+<meta property="og:title" content="linux的文件编辑常用命令">
+<meta property="og:url" content="http://yoursite.com/2020/08/13/linux/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="主要是记录,vim模式下的全选，复制，粘贴，删除操作 单个命令的解释12345678# vim 进入文件的编辑模式$ vim test.md# esc下，‘gg&#39;:按两次g光标会跳转到文件首位置# &#39;v&#39;:按下v之后，移动光标，此时经过的位置都会被选中# &#39;G&#39;:注意这是大写的G，这样会把光标调到文件尾的位置# &#39;d&#39;:删除选中的数据# &amp;#">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-12T16:53:02.078Z">
-<meta property="article:modified_time" content="2020-08-12T16:53:02.078Z">
+<meta property="article:published_time" content="2020-08-12T17:36:20.643Z">
+<meta property="article:modified_time" content="2020-08-12T17:36:20.643Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -154,39 +154,36 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hexo" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-linux" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      标准模板
+      linux的文件编辑常用命令
     </h1>
   
 
         
-        <a href="/2020/08/13/hexo/" class="archive-article-date">
-  	<time datetime="2020-08-12T16:53:02.078Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-13</time>
+        <a href="/2020/08/13/linux/" class="archive-article-date">
+  	<time datetime="2020-08-12T17:36:20.643Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-13</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <p>主要是记录,vim模式下的全选，复制，粘贴，删除操作</p>
+<h2 id="单个命令的解释"><a href="#单个命令的解释" class="headerlink" title="单个命令的解释"></a>单个命令的解释</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># vim 进入文件的编辑模式</span><br><span class="line">$ vim test.md</span><br><span class="line"># esc下，‘gg&#39;:按两次g光标会跳转到文件首位置</span><br><span class="line"># &#39;v&#39;:按下v之后，移动光标，此时经过的位置都会被选中</span><br><span class="line"># &#39;G&#39;:注意这是大写的G，这样会把光标调到文件尾的位置</span><br><span class="line"># &#39;d&#39;:删除选中的数据</span><br><span class="line"># &#39;y&#39;:复制</span><br><span class="line">#  &#39;p&#39;:粘贴</span><br></pre></td></tr></table></figure>
+<h3 id="全选（gg-v-G"><a href="#全选（gg-v-G" class="headerlink" title="全选（gg+v+G)"></a>全选（gg+v+G)</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 所以，全选的操作就是：先esc,然后gg光标调到首位置，按v，之后光标经过的位置会被选中，按大写的G,光标调到最后的位置。这样就相当于复制了全部内容</span></span><br><span class="line">$ ggvG</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="复制-删除"><a href="#复制-删除" class="headerlink" title="复制,删除"></a>复制,删除</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 复制选中的数据，先esc</span><br><span class="line"># 键盘方向键操作，将光标移动到内容块的首部,输入v,然后方向键移动到内容块尾部,输入y</span><br><span class="line"># 选中数据后，内容会高亮，此时输入d，就会删除选择的数据；输入y就会复制它们</span><br><span class="line"># 全选复制组合起来就是</span><br><span class="line">ggvGy</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h3 id="粘贴"><a href="#粘贴" class="headerlink" title="粘贴"></a>粘贴</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ y</span><br></pre></td></tr></table></figure>
+<p>–</p>
 
       
 
@@ -266,7 +263,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/08/13/hexo/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/08/13/linux/" alt="微信分享二维码">
     </div>
 </div>
 
