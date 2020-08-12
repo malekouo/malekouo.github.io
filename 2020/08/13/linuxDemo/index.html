@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2020 | Hexo</title>
+  <title>linuxDemo | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2020/index.html">
+  <meta name="description" content="title: linuxdate: 2020-08-13 00:12:19tags: linux  单个命令的解释12345678# vim 进入文件的编辑模式$ vim test.md# esc下，‘gg&#39;:按两次g光标会跳转到文件首位置# &#39;v&#39;:按下v之后，移动光标，此时经过的位置都会被选中# &#39;G&#39;:注意这是大写的G，这样会把光标调到文件尾的位置#">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linuxDemo">
+<meta property="og:url" content="http://yoursite.com/2020/08/13/linuxDemo/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="title: linuxdate: 2020-08-13 00:12:19tags: linux  单个命令的解释12345678# vim 进入文件的编辑模式$ vim test.md# esc下，‘gg&#39;:按两次g光标会跳转到文件首位置# &#39;v&#39;:按下v之后，移动光标，此时经过的位置都会被选中# &#39;G&#39;:注意这是大写的G，这样会把光标调到文件尾的位置#">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-08-12T18:03:57.945Z">
+<meta property="article:modified_time" content="2020-08-12T18:03:57.945Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -150,141 +154,167 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-linuxDemo" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      linuxDemo
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/08/13/linuxDemo/" class="archive-article-date">
+
+        
+        <a href="/2020/08/13/linuxDemo/" class="archive-article-date">
   	<time datetime="2020-08-12T18:03:57.945Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-13</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/08/13/linuxDemo/">linuxDemo</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<p>title: linux<br>date: 2020-08-13 00:12:19<br>tags: linux</p>
+<hr>
+<h1 id="单个命令的解释"><a href="#单个命令的解释" class="headerlink" title="单个命令的解释"></a>单个命令的解释</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># vim 进入文件的编辑模式</span><br><span class="line">$ vim test.md</span><br><span class="line"># esc下，‘gg&#39;:按两次g光标会跳转到文件首位置</span><br><span class="line"># &#39;v&#39;:按下v之后，移动光标，此时经过的位置都会被选中</span><br><span class="line"># &#39;G&#39;:注意这是大写的G，这样会把光标调到文件尾的位置</span><br><span class="line"># &#39;d&#39;:删除选中的数据</span><br><span class="line"># &#39;y&#39;:复制</span><br><span class="line">#  &#39;p&#39;:粘贴</span><br></pre></td></tr></table></figure>
+<h3 id="全选（gg-v-G"><a href="#全选（gg-v-G" class="headerlink" title="全选（gg+v+G)"></a>全选（gg+v+G)</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 所以，全选的操作就是：先esc,然后gg光标调到首位置，按v，之后光标经过的位置会被选中，按大写的G,光标调到最后的位置。这样就相当于复制了全部内容</span></span><br><span class="line">$ ggvG</span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
-          
 
+<h3 id="复制-删除"><a href="#复制-删除" class="headerlink" title="复制,删除"></a>复制,删除</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 复制选中的数据，先esc</span><br><span class="line"># 键盘方向键操作，将光标移动到内容块的首部,输入v,然后方向键移动到内容块尾部,输入y</span><br><span class="line"># 选中数据后，内容会高亮，此时输入d，就会删除选择的数据；输入y就会复制它们</span><br><span class="line"># 全选复制组合起来就是</span><br><span class="line">ggvGy</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="粘贴"><a href="#粘贴" class="headerlink" title="粘贴"></a>粘贴</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ y</span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/08/13/linuxDemo/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/08/13/hexo/" class="archive-article-date">
-  	<time datetime="2020-08-12T16:12:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-13</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/08/13/hexo/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hexo发布博客的总结</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/08/13/hexo/">hexo发布博客的总结</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/04/first-demo/" class="archive-article-date">
-  	<time datetime="2020-03-04T12:32:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-04</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/04/first-demo/">first demo</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/02/hello-world/" class="archive-article-date">
-  	<time datetime="2020-03-02T14:53:23.802Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-02</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/02/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -307,8 +337,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
